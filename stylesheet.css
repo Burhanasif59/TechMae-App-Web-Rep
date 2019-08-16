@@ -1,0 +1,70 @@
+body,html{
+	height: 100%;
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    margin-top : 50px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+	color : #EE1E4F;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+#sectionTop{
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0 ,0 , .70), rgba(0, 0 ,0 , .70)),url('Resources/Pictures/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	max-height: 1000px;
+}
+
+#phone{
+	margin-top: 70px;
+}
+
+#topContent{
+	max-width: 500px;
+}
+
+#topMessage{
+	padding-top: 160px;
+}
+
+.topMessageContents{
+	color : #EE1E4F;
+	padding-left: 40px;
+	font-size: 15px;
+}
+
+#logo{
+	height: 170px;
+}
+
+
+#topMessageContentsSecond{
+	padding-top: 15px;
+}
+
+#topBadges{
+	padding-top: 60px;
+	padding-left: 30px;
+
+}
+
+#google{
+	width: 200px;
+
+}
+
+#apple{
+	width: 200px;
+	margin-left: 10px;
+}
