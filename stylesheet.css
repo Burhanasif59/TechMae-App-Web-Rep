@@ -16,6 +16,10 @@ body,html{
 	margin-left: 10px;
 }
 
+#phoneSmall{
+	display: none;
+}
+
 #sectionTop{
 	height: 100%;
 	width: 100%;
@@ -41,21 +45,22 @@ body,html{
 .topMessageContents{
 	color : #EE1E4F;
 	padding-left: 40px;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 #logo{
-	height: 170px;
+	height: 200px;
 }
 
 
 #topMessageContentsSecond{
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 #topBadges{
 	padding-top: 60px;
 	padding-left: 30px;
+	padding-bottom: 30px;
 
 }
 
@@ -67,4 +72,52 @@ body,html{
 #apple{
 	width: 200px;
 	margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	body{
+		display: block !important;
+	}
+
+	#logo{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#topContent{
+	max-width: 1000px;
+	}
+
+	.topMessageContents{
+		text-align: center;
+	}
+
+	#topBadges{
+		padding-left: 0;
+	}
+
+	#topBadges img{
+
+		position: relative;
+		left: 30%;
+		transform: translateX(-30%);
+
+	}
+
+	#phone{
+		display: none;
+	}
+
+	#phoneSmall{
+		display: block;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		padding-top: 30px;
+		height: 500px;
+	}
+
+
 }
